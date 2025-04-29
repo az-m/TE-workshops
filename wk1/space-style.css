@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 0%;
+  background-color: rgb(6, 6, 38);
+  background-blend-mode: overlay;
+  color: #fff;
+}
+
+header {
+  background: rgb(10, 4, 135);
+  height: 100px;
+}
+
+main {
+  background: rgb(6, 23, 71);
+  min-height: 200px;
+}
+
+footer {
+  background: rgb(5, 24, 80);
+  height: 100px;
+}

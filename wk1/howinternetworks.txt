@@ -1,0 +1,15 @@
+What is local host?
+
+Localhost is your own machine that you are making the request from. You can host test code on localhost if you have the web server on your machine enabled, which is a quick way to see what your work looks like in a browser. Otherwise known as 127.0.0.1
+
+What are nameservers, why are they needed?
+
+A nameserver is where URLs are associated with IP addresses. They're like a directory that enables us to use nice friendly human-readable URLs for websites instead of numbers. Without them remembering web addresses would suck.
+
+Describe client and server: making a request, receiving a response
+
+A client makes a request (for something, information, a file) to a server. The server handles that request, retrieves the information from where it is stored, and sends it to the requesting client as its response. 
+
+What is a port? What’s the default port?
+
+A port is the door through which servers are accessed. One server may serve different things, so incoming request traffic has to go to the right door. For http traffic the default port is 80 and for https its 443.

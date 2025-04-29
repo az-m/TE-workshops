@@ -1,0 +1,43 @@
+body {
+  margin-left: 50px;
+  max-width: 400px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(248, 244, 238);
+}
+
+main {
+  font-size: 1.2rem;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.imgTxt {
+  font-size: 0.8rem;
+}
+
+.hero {
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.byline {
+  display: block;
+  text-align: right;
+}
+
+.moreArticles {
+  margin-top: 40px;
+}
+
+.moreArticles a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
