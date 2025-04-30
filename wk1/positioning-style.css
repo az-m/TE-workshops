@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-container {
+  position: relative;
+  background: #eeeeee;
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  color: white;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.cookie-notice {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #eee;
+  padding: 20px;
+}
+
+.cookie-button {
+  padding: 0 5px 0 5px;
+  margin-left: 10px;
+}
