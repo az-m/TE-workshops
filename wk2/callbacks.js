@@ -1,9 +1,9 @@
 function notifyUser() {
-  console.log("notifyUser function was called!");
+  console.log("notifyUser function was called by myFunction!");
 }
 
 function myFunction(notifyUserCall) {
-  console.log("Running my function ...");
+  console.log("Running myFunction ...");
   console.log("Notifying user ...");
   notifyUserCall();
 }
@@ -11,13 +11,14 @@ function myFunction(notifyUserCall) {
 myFunction(notifyUser);
 
 function anotherFunction(onCompleteCallback) {
-  console.log("Running my function ...");
+  console.log("Running anotherFunction ...");
   console.log("Notifying user ...");
   onCompleteCallback();
 }
 
-anotherFunction(function () {
-  console.log("notifyUser function was called!");
+// anotherFunction(function () {
+anotherFunction(() => {
+  console.log("This anonymous notify function was called by anotherFunction!");
 });
 
 function myAwesomeFunction(onSuccessCallback, onFailureCallback) {
@@ -52,13 +53,29 @@ function multiply(a, b) {
   return a * b;
 }
 
+function subtract(a, b) {
+  return a - b;
+}
+
+function divide(a, b) {
+  return a / b;
+}
+
 function myCalculatorFunction(a, b, operationCallback) {
-  console.log("Calculating with:", a, b);
+  console.log(
+    `Doing a calculation to ${operationCallback.name} the numbers ${a} and ${b}`
+  );
   return operationCallback(a, b);
 }
 
 const result = myCalculatorFunction(1, 2, add);
 console.log(result);
 
-const result2 = myCalculatorFunction(1, 2, multiply);
+const result2 = myCalculatorFunction(3, 5, multiply);
 console.log(result2);
+
+const result3 = myCalculatorFunction(7, 3, subtract);
+console.log(result3);
+
+const result4 = myCalculatorFunction(56, 8, divide);
+console.log(result4);
