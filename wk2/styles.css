@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro-text {
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.container {
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px 0 20px 0;
+}
+
+.hero img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 1rem;
+  min-height: 20rem;
+  max-width: 20rem;
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
