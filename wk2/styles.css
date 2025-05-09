@@ -33,6 +33,11 @@
   padding: 10px;
 }
 
+.box img {
+  max-width: 15rem;
+  object-fit: contain;
+}
+
 @media (min-width: 800px) {
   .container {
     flex-direction: row;
