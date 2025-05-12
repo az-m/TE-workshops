@@ -1,0 +1,15 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+}
+
+#output {
+  border: 1pt solid #000;
+  width: 50%;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
