@@ -1,0 +1,14 @@
+.hide {
+  display: none;
+}
+
+section {
+  margin: 20px;
+}
+
+.timer {
+  display: block;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
+}

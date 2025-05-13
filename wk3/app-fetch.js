@@ -15,7 +15,7 @@ async function getRepoData(data) {
       "https://api.github.com/repos/az-m/" + repoName
     );
     const data = await response.json();
-    p = `<p>Name: ${data.name}  Stargazers count: ${data.stargazers_count}</p>`;
+    p = `<p>Name: ${data.name} | Stargazers count: ${data.stargazers_count}</p>`;
     output.innerHTML += p;
   });
 }
