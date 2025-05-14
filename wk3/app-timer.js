@@ -23,11 +23,14 @@ document.getElementById("tmrBtnReset").addEventListener("click", timerReset);
 // functions
 
 function timerGo() {
-  timer = setInterval(timerHandler, 1000);
+  if (!timer) {
+    timer = setInterval(timerHandler, 1000);
+  }
 }
 
 function timerStop() {
   clearInterval(timer);
+  timer = null;
 }
 
 function timerReset() {
@@ -36,6 +39,7 @@ function timerReset() {
 }
 
 function timerHandler() {
-  count = count + 1;
+  // count = count + 1;
+  ++count;
   document.getElementById("timer").innerText = count;
 }
