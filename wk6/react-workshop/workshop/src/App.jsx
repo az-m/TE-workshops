@@ -1,12 +1,18 @@
 import "./App.css";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import NavBar from "./components/NavBar";
 import Button from "./components/Button";
 import ImageFrame from "./components/ImageFrame";
+import CountUpAndDown from "./components/CountUpAndDown";
 
 function App() {
   return (
     <>
-      <h1>App</h1>
+      <Header />
+      <NavBar />
       <Button />
+      <CountUpAndDown />
       <ImageFrame
         src="https://images.unsplash.com/photo-1589656966895-2f33e7653819"
         alt="a polar bear waves at the photographer"
@@ -17,6 +23,7 @@ function App() {
         alt="a panda eats bamboo"
         caption="This panda is too busy to say hello."
       />
+      <Footer />
     </>
   );
 }
