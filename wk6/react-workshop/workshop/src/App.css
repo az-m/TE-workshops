@@ -24,3 +24,12 @@ figcaption {
   color: gray;
   font-family: arial;
 }
+
+.div {
+  padding: 10px;
+}
+
+.button {
+  border: 1px solid;
+  padding: 2px;
+}
