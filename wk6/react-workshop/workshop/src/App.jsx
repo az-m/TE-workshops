@@ -6,6 +6,7 @@ import Button from "./components/Button";
 import ImageFrame from "./components/ImageFrame";
 import CountUpAndDown from "./components/CountUpAndDown";
 import Conditionals from "./components/Conditionals";
+import Fetch from "./components/Fetchj";
 import { images } from "./lib/images";
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         ))}
       </ul>
       <Conditionals />
+      <Fetch />
       <Footer />
     </>
   );

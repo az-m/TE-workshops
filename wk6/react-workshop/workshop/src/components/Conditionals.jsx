@@ -14,7 +14,7 @@ function Hello() {
 
   return (
     <div className="div">
-      <button class="button" onClick={() => setIsVisible(!isVisible)}>
+      <button className="button" onClick={() => setIsVisible(!isVisible)}>
         Toggle
       </button>
       {isVisible ? <p>Hello World</p> : null}
