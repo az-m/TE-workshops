@@ -1,10 +1,10 @@
-// import { Link } from "react-router";
+import Wait from "../components/Wait";
 
 export default function HomePage() {
   return (
     <div>
       <h2>Home</h2>
-      {/* <Link to="about">About</Link> */}
+      <Wait />
     </div>
   );
 }

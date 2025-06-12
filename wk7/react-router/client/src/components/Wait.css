@@ -1,0 +1,27 @@
+.box {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.dots {
+  position: absolute;
+  left: 0px;
+  /* bottom: -2px;
+  animation-name: anim;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;  */
+}
+
+.dots ul {
+  list-style: none;
+}
+
+/* @keyframes anim {
+  to {
+    transform: translate(0px, -54px);
+  }
+} */
